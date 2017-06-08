@@ -12,6 +12,8 @@ void EjercicioVisualDiezPrinc::Window_Open(Win::Event& e)
 
 void EjercicioVisualDiezPrinc::btJavier_Click(Win::Event& e)
 {
+	JavierDlg objDlg;
+	objDlg.BeginDialog(hWnd);
 }
 
 void EjercicioVisualDiezPrinc::btJesus_Click(Win::Event& e)

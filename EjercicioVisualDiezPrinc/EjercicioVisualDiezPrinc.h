@@ -1,5 +1,6 @@
 #pragma once  //______________________________________ EjercicioVisualDiezPrinc.h  
 #include "Resource.h"
+#include "JavierDlg.h"
 class EjercicioVisualDiezPrinc: public Win::Dialog
 {
 public:
