@@ -28,5 +28,7 @@ void EjercicioVisualDiezPrinc::btAngel_Click(Win::Event& e)
 
 void EjercicioVisualDiezPrinc::btFabi_Click(Win::Event& e)
 {
+	FabiDlg objFabi;
+	objFabi.BeginDialog(hWnd);
 }
 
